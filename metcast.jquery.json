@@ -29,7 +29,7 @@
     ],
     "bugs": "https://github.com/christill89/metcast/issues",
     "homepage": "http://christill89.github.io/MetCast/",
-    "docs": "http://christill89.github.io/metcast/",
+    "docs": "http://christill89.github.io/MetCast/",
     "download": "https://github.com/christill89/metcast/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
