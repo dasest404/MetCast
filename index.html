@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>MetCast - jQuery Weather Plugin</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+
+		<div id="wrapper">
+			<h1>MetCast - Demo</h1>
+			<div id="weather"></div>
+			<p>
+				Github: <a href="https://github.com/christill89/MetCast">https://github.com/christill89/MetCast</a>
+			</p>
+			<p>
+				Website: <a href="http://www.iamchristill.com">http://iamchristill.com</a>
+			</p>
+		</div>
+		
+
+		<script src="jquery.js"></script>
+		<script src="metcast.jquery.js"></script>
+
+		<script>
+
+			$('#weather').metCast({
+				key: '4vfnzcgsce3jrf549uycnrbf',
+				location: 'London'
+			});
+
+		</script>
+
+	</body>
+</html>
