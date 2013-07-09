@@ -55,6 +55,9 @@ h1{
 	margin:7px 0;
 	color:#fff;
 }
+	#metCast-text p.Temp, 
+	#metCast-text p.Wind,
+	#metCast-text p.Pressure {display:block;}
 
 /*---- Weather Sprite Icon Co-ordinates -----*/
 
