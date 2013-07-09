@@ -29,7 +29,7 @@ if (typeof Object.create !== 'function') {
         createWidget: function () {
             var self = this;
             this.setData().done(function () {
-                self.$container.append('<div class="metCast-wrapper"><div id="metCast-text"><p>' + self.temp + '</p><p>' + self.wind + '</p><p>' + self.pressure + '</p></div><div id="metCast-icon"></div></div>');
+                self.$container.append('<div class="metCast-wrapper"><div id="metCast-text"><p class="Temp">' + self.temp + '</p><p class='Wind'>' + self.wind + '</p><p class='Pressure'>' + self.pressure + '</p></div><div id="metCast-icon"></div></div>');
                 self.setImage();
             });
         },
