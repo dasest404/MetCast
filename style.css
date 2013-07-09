@@ -31,7 +31,7 @@ h1{
 .metCast-wrapper {
 	width:200px;
 	height:94px;
-	background:transrparent url('img/bg.png') repeat 0 0;
+	background:transparent url('img/bg.png') repeat 0 0;
 	border:2px solid rgba(236,246,254,0.8);
 	font-family:arial;
 }
@@ -55,6 +55,9 @@ h1{
 	margin:7px 0;
 	color:#fff;
 }
+	#metCast-text p.Temp, 
+	#metCast-text p.Wind,
+	#metCast-text p.Pressure {display:block;}
 
 /*---- Weather Sprite Icon Co-ordinates -----*/
 
